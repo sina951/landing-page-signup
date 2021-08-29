@@ -277,8 +277,8 @@ ul {
 
 .svg_triangles svg {
   /* position: relative; */
-  transform: rotate(-90deg);
   /* cursor: pointer; */
+  transform: rotate(-90deg);
   height: 80px;
 }
 
@@ -300,6 +300,7 @@ ul {
 svg:hover .light1 {
   transform: translateX(20%);
 }
+
 /* Animation */
 svg:hover .dark1 {
   transform: translateX(40%);
@@ -308,7 +309,6 @@ svg:hover .dark1 {
 svg:hover .dark2 {
   transform: translateX(0%);
 }
-
 
 .showcase .showcase_text {
   width: 100%;
@@ -376,7 +376,6 @@ svg:hover .dark2 {
     flex: 6;
   }
 }
-
 
 
 @media (max-width: 768px) {
